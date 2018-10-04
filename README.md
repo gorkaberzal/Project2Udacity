@@ -21,3 +21,10 @@ This repository is the starter code for _all_ Udacity students. Therefore, we mo
 For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Dependencies
+addEventListener listens for click events. Then the rest of the functions are called dynamically.
+
+There is a counter clock such shows the time. When the game starts.
+
+There has been added lines of code to the app.js, app.css and the index.html files.
+
+App.js has the code that access the DOM.
