@@ -16,13 +16,15 @@
         </header>
 
         <section class="score-panel">
+          <!-- new counter element -->
+          <span class="counter">0:00</span>
         	<ul class="stars">
         		<li><i class="fa fa-star"></i></li>
         		<li><i class="fa fa-star"></i></li>
         		<li><i class="fa fa-star"></i></li>
         	</ul>
 
-        	<span class="moves">3</span> Moves
+        	<span class="moves">0</span> Moves
 
             <div class="restart">
         		<i class="fa fa-repeat"></i>
@@ -36,7 +38,7 @@
             <li class="card">
                 <i class="fa fa-paper-plane-o"></i>
             </li>
-            <li class="card match">
+            <li class="card">
                 <i class="fa fa-anchor"></i>
             </li>
             <li class="card">
@@ -45,7 +47,7 @@
             <li class="card">
                 <i class="fa fa-cube"></i>
             </li>
-            <li class="card match">
+            <li class="card">
                 <i class="fa fa-anchor"></i>
             </li>
             <li class="card">
@@ -66,7 +68,7 @@
             <li class="card">
                 <i class="fa fa-bomb"></i>
             </li>
-            <li class="card open show">
+            <li class="card">
                 <i class="fa fa-bolt"></i>
             </li>
             <li class="card">
@@ -79,6 +81,23 @@
                 <i class="fa fa-cube"></i>
             </li>
         </ul>
+    </div>
+    <div class="nero__background hide">
+      <div class="nero__body">
+        <div class="nero__heading">
+          <h1 class="nero__title">Stats</h1>
+          <span class="nero__close">X</span>
+        </div>
+        <div class="nero__stats">
+          <span class="nero__elapsedTime">Time =</span>
+          <span class="nero__stars">Stars =</span>
+          <span class="nero__clicks">Moves =</span>
+        </div>
+        <div class="nero__buttons">
+          <button class="nero__button nero__cancel">Cancel</button>
+          <button class="nero__button nero__replay">Replay</button>
+        </div>
+      </div>
     </div>
 
     <script src="js/app.js"></script>
